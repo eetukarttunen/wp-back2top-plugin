@@ -1,6 +1,10 @@
 # Back2Top plugin for Wordpress
 
-**Back2Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page.
+**Back2Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page. 
+
+I created this plugin originally just for fun during a weekend and some free time. The idea behind it came while working on a larger wordpress security -related project, which will be released later.
+
+This project 
 
 ### Settings page:
 ![image](https://github.com/user-attachments/assets/12745e51-f7a4-4a0a-bf07-5ad8d42db66a)

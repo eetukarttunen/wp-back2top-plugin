@@ -58,8 +58,8 @@ function back2top_register_settings() {
     register_setting('back2top_settings', 'back2top_color');
     register_setting('back2top_settings', 'back2top_size');
     register_setting('back2top_settings', 'back2top_position');
-    register_setting('back2top_settings', 'back2top_border_radius'); // Register the border radius setting
-    register_setting('back2top_settings', 'back2top_hover_color'); // Register the hover color setting
+    register_setting('back2top_settings', 'back2top_border_radius');
+    register_setting('back2top_settings', 'back2top_hover_color');
 
     // Add settings section for customization
     add_settings_section(
@@ -147,7 +147,7 @@ function back2top_dynamic_styles() {
     $size = get_option('back2top_size', '50');
     $position = get_option('back2top_position', 'right');
     $radius = get_option('back2top_border_radius', '50');
-    $hover_color = get_option('back2top_hover_color', '#005177'); // Get the hover color setting
+    $hover_color = get_option('back2top_hover_color', '#005177'); 
 
     $position_style = ($position === 'right') ? 'right:20px;' : 'left:20px;';
 
@@ -155,21 +155,21 @@ function back2top_dynamic_styles() {
     echo '<style>
         #back2top {
             position: fixed;
-            bottom: 20px; /* Fixed to the bottom */
-            ' . esc_attr($position_style) . ' /* Dynamically place left or right */
+            bottom: 20px;
+            ' . esc_attr($position_style) . '
             background-color: ' . esc_attr($color) . ';
             width: ' . esc_attr($size) . 'px;
             height: ' . esc_attr($size) . 'px;
             line-height: ' . esc_attr($size) . 'px;
             color: white;
             text-align: center;
-            border-radius: ' . esc_attr($radius) . 'px; /* Apply dynamic border radius */
+            border-radius: ' . esc_attr($radius) . 'px; 
             cursor: pointer;
             z-index: 1000;
             transition: background-color 0.3s ease;
         }
         #back2top:hover {
-            background-color: ' . esc_attr($hover_color) . '; /* Apply dynamic hover color */
+            background-color: ' . esc_attr($hover_color) . '; 
         }
     </style>';
 }

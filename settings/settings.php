@@ -99,3 +99,4 @@ function back2top_border_radius_field() {
     $radius = get_option('back2top_border_radius', '50');
     echo '<input type="number" name="back2top_border_radius" value="' . esc_attr($radius) . '" min="0" max="100"> px';
 }
+
