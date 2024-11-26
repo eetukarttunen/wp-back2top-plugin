@@ -3,7 +3,7 @@
 **Back 2 Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page.
 
 ### Settings page:
-![image](https://github.com/user-attachments/assets/3dc12028-6f9e-433e-803a-2d550977752d)
+![image](https://github.com/user-attachments/assets/12745e51-f7a4-4a0a-bf07-5ad8d42db66a)
 
 ### Example:
 ![image](https://github.com/user-attachments/assets/dd41a9b5-faea-4d53-9c03-30ad03a9700e)
