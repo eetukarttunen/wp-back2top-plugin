@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) {
 function back2top_settings_page() {
     ?>
     <div class="wrap">
-        <h1>Back 2 Top -plugin settings</h1>
+        <h1>Back2Top settings</h1>
         <form method="post" action="options.php">
             <?php
             settings_fields('back2top_settings');

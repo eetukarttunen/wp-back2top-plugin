@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Back 2 Top
+Plugin Name: Back2Top
 Description: Adds a back-to-top button to your website, allowing users to effortlessly return to the top of the page anytime, anywhere.
 Version: 1.1
 Author: Eetu Karttunen
@@ -27,8 +27,8 @@ add_action('wp_footer', 'back2top_button');
 // Add settings page to admin menu
 function back2top_menu() {
     add_options_page(
-        'Back 2 Top settings',
-        'Back 2 Top',
+        'Back2Top settings',
+        'Back2Top',
         'manage_options',
         'back2top',
         'back2top_settings_page'
@@ -40,7 +40,7 @@ add_action('admin_menu', 'back2top_menu');
 function back2top_settings_page() {
     ?>
     <div class="wrap">
-        <h1>Back to Top Settings</h1>
+        <h1>Back2Top Settings</h1>
         <form method="post" action="options.php">
             <?php
             settings_fields('back2top_settings');
