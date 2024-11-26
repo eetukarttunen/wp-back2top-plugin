@@ -2,6 +2,13 @@
 
 **Back 2 Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page.
 
+### Settings page:
+![image](https://github.com/user-attachments/assets/3dc12028-6f9e-433e-803a-2d550977752d)
+
+### Example:
+![image](https://github.com/user-attachments/assets/dd41a9b5-faea-4d53-9c03-30ad03a9700e)
+
+
 ## Features
 - Customizable button color, size, and position.
 - Adjustable border radius and hover color.
