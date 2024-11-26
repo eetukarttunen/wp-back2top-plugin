@@ -1,6 +1,6 @@
-# Back 2 Top plugin for Wordpress
+# Back2Top plugin for Wordpress
 
-**Back 2 Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page.
+**Back2Top** adds a customizable "back-to-top" button to your WordPress website, allowing users to easily scroll to the top of the page.
 
 ### Settings page:
 ![image](https://github.com/user-attachments/assets/12745e51-f7a4-4a0a-bf07-5ad8d42db66a)
@@ -19,11 +19,11 @@
 1. Download and extract the plugin. 
 2. Upload the plugin folder to `/wp-content/plugins/back-to-top/`.
 3. Activate the plugin via **Plugins > Installed Plugins**.
-4. Go to **Settings > Back 2 Top** to configure the button.
+4. Go to **Settings > Back2Top** to configure the button.
 
 ## Settings
 
-In the **Back 2 Top Settings** page, you can customize:
+In the **Back2Top Settings** page, you can customize:
 - **Button Color**: Set the button's background color.
 - **Button Size (px)**: Adjust the button size.
 - **Button Position**: Choose between bottom-right or bottom-left.
