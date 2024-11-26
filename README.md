@@ -32,7 +32,6 @@ In the **Back 2 Top Settings** page, you can customize:
 
 ## File Structure
 
-/wp-content/plugins/back-to-top/
     ├── back-to-top.php        <-- Main plugin file
     ├── admin/
     │   └── settings.php      <-- Admin settings page (button customization)
