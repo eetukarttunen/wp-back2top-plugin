@@ -2,7 +2,7 @@
 /*
 Plugin Name: Back2Top
 Description: Adds a back-to-top button to your website, allowing users to effortlessly return to the top of the page anytime, anywhere.
-Version: 1.1
+Version: 1.0.1
 Author: Eetu Karttunen
 License: GPL2
 */
